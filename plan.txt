@@ -6,7 +6,7 @@ This involves examining
 2)how their profiles affect sending behavior
 3)what happens to the migration vs poverty in Sri Lanka.
 
-task 1)Migrant Demographics:
+task 1)Migrant Demographics:..................................................................................
 
 1) gender distribution
 
@@ -20,9 +20,18 @@ task 1)Migrant Demographics:
 
 6) region of origin
 
-task 2) Migration vs poverty rate change
 
-task 3) emigration and macroeconomics(GDP percapita, exchange rate, inflation, Oil price)
+
+
+
+task 2) emigration vs poverty rate change...................................................................
+
+emigration numbers for 2000-2025
+poverty 2000-2025
+
+
+task 3) emigration and macroeconomics(GDP percapita, exchange rate, inflation, Oil price)....................
+
 
 
 
