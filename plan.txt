@@ -4,7 +4,7 @@ analyzing how;
 This involves examining 
 1)who migrates, 
 2)how their profiles affect sending behavior
-3)what happens to the money once it reaches Sri Lanka.
+3)what happens to the migration vs poverty in Sri Lanka.
 
 Migrant Demographics:
 
@@ -13,4 +13,10 @@ Migrant Demographics:
 3) Age distribution
 4) Education level
 5) sector of employment
+6) country
+7) region of origin
+8) Migration vs poverty rate change
+
+
+
 
