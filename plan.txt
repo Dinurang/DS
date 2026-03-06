@@ -42,8 +42,15 @@ emigration numbers for 2000-2025
 poverty 2000-2025
 
 
-task 3) emigration and macroeconomics(GDP percapita, exchange rate, inflation, Oil price)....................
+task 3) emigration and macroeconomics(unemployment, Oil price,  unemployment, exchange rate, inflation)....................
 
+inflation ref:
+https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=LK
+
+exchnage rate ref:
+World Bank / IMF IFS: https://data.worldbank.org/indicator/PA.NUS.FCRF?locations=LK
+FRED (Federal Reserve): https://fred.stlouisfed.org/series/EXSLUS
+Central Bank of Sri Lanka: https://www.cbsl.gov.lk/en/rates-and-indicators/exchange-rates
 
 
 
