@@ -9,18 +9,30 @@ This involves examining
 task 1)Migrant Demographics:..................................................................................
 
 1) gender distribution
-
 2) skill,education levels
 
-3) Age distribution
+3) avg Age
+4) avg contract time  
+5) districts
+#above details are Here is the dataset formatted as a CSV code block. 
+This data combines records from the Sri Lanka Bureau of Foreign Employment (SLBFE),
+ Central Bank of Sri Lanka (CBSL), and recent 2024 Census insights.
 
-4) sector of employment
+📚 Primary References
+Sri Lanka Bureau of Foreign Employment (SLBFE) - Annual Statistical Reports (2000–2024):
+Data Used: Registration by manpower level (Skilled/Low-skilled), Gender-wise departures, and District-wise registration tables.
+Specific Table Refs: Table 1 (Registration by Gender), Table 3/3A (Manpower Level 1994–Present), and Table 1.13 (District Distribution).
+Note: 2024 figures are based on the SLBFE's 29th series report (released late 2025).
+Central Bank of Sri Lanka (CBSL) - Annual Reports & Quarterly Bulletins:
+Data Used: Worker remittance figures and total departure estimates.
+Specific Ref: "Quarterly Bulletin of Workers' Remittances and Labour Migration" (Issues for Q1–Q4 2024 and 2025).
+Department of Census and Statistics (DCS) - Sri Lanka Labour Force Survey:
+Data Used: Age profile distributions (Age 15–29, 30–39, etc.) and educational attainment levels.
 
-5) country
-
-6) region of origin
-
-
+🔍 Specific Data Verification Notes
+Average Age (2022–2025): These figures reflect the "Youth Exodus" documented in the 2024 SLBFE Chairperson's Year-End Review, which noted that the modal age group for departures shifted from 35–39 down to 25–29 during the economic crisis.
+Average Stay (Years): While standard Middle East contracts remain 2 years, the mean stay increased because of the surge in SSW (Specified Skilled Worker) visas for Japan and E-9 visas for South Korea, which allow stays of 3 to 5+ years.
+District Percentages: These are calculated by dividing the SLBFE "Registration by District" count by the "Total Registration" for each specific year.
 
 
 
