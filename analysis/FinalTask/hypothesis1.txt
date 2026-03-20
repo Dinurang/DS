@@ -1,0 +1,23 @@
+HYPOTHESIS TEST: TREND IN FEMALE EMIGRATION (1994-2025)
+Method: Simple Linear Regression
+Sample Size (n): 32
+
+1. HYPOTHESES:
+   H0: Beta_1 = 0 (No trend)
+   Ha: Beta_1 != 0 (Significant trend)
+
+2. DATA SUMMARY:
+   Estimated Slope (Beta_1): -1.271
+   Standard Error (SE): 0.116
+
+3. CALCULATION:
+   t-statistic = Beta_1 / SE
+   t = -1.271 / 0.116 = -10.957
+   Degrees of Freedom (df) = 32 - 2 = 30
+
+4. RESULTS:
+   p-value < 0.001
+   Significance Level (alpha) = 0.05
+
+5. CONCLUSION:
+   Reject H0. There is a significant negative trend in female emigration proportion.

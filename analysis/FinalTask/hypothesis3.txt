@@ -1,0 +1,24 @@
+HYPOTHESIS TEST: AGE VS CONTRACT DURATION
+Method: Pearson Correlation Coefficient (r)
+Sample Size (n): 32
+
+1. HYPOTHESES:
+   H0: Rho = 0 (No association)
+   Ha: Rho != 0 (Significant association)
+
+2. DATA SUMMARY:
+   Correlation Coefficient (r): 0.591
+   95% CI: [0.303, 0.777]
+
+3. CALCULATION:
+   t = r * sqrt((n-2) / (1 - r^2))
+   t = 0.591 * sqrt(30 / (1 - 0.349))
+   t = 4.013
+   Degrees of Freedom (df) = 30
+
+4. RESULTS:
+   p-value < 0.001
+   Significance Level (alpha) = 0.05
+
+5. CONCLUSION:
+   Reject H0. There is a significant moderate positive correlation between age and contract duration.
