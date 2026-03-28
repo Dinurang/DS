@@ -1,24 +1,39 @@
-HYPOTHESIS TEST: AGE VS CONTRACT DURATION
+HYPOTHESIS TEST: Association Between Emigrant Age and Contract Duration
+
 Method: Pearson Correlation Coefficient (r)
+
 Sample Size (n): 32
 
-1. HYPOTHESES:
-   H0: Rho = 0 (No association)
-   Ha: Rho != 0 (Significant association)
 
-2. DATA SUMMARY:
-   Correlation Coefficient (r): 0.591
-   95% CI: [0.303, 0.777]
+HYPOTHESES:
+   H0: 𝜌 = 0 There is no linear correlation between age and contract duration
+   H1: 𝜌 > 0 There is a positive linear correlation 
 
-3. CALCULATION:
-   t = r * sqrt((n-2) / (1 - r^2))
-   t = 0.591 * sqrt(30 / (1 - 0.349))
-   t = 4.013
-   Degrees of Freedom (df) = 30
 
-4. RESULTS:
-   p-value < 0.001
-   Significance Level (alpha) = 0.05
 
-5. CONCLUSION:
+=== Correlation Results for Hypothesis 3 ===
+
+Variables: 'average_age_of_emigrant' vs 'average_contract_years'
+Observations (n): 32
+Degrees of Freedom (df): 30
+
+Pearson Correlation Coefficient (r): 0.591
+t-statistic: 4.01
+p-value (one-sided): 0.0002
+95% Confidence Interval for r: [0.305, 0.779]
+
+Moderate-to-Strong Positive Correlation: 
+The Pearson correlation coefficient (r) of 0.591 confirms a clear positive relationship. 
+As the average age of emigrants goes up, the average contract duration also goes up.
+
+High Statistical Significance: Our 𝑡-statistic is 4.01 and the 𝑝-value is 0.0002 
+(which is well below the 0.001 threshold). This provides very strong evidence to reject the Null Hypothesis
+ (H0).
+ 
+Confidence Interval: The 95% confidence interval of [0.305, 0.779] is entirely above zero, 
+further cementing the positive nature of this relationship.
+
+
+CONCLUSION:
    Reject H0. There is a significant moderate positive correlation between age and contract duration.
+

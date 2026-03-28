@@ -4,7 +4,7 @@ Sample Size (n): 32
 
 1. HYPOTHESES:
    H0: β = 0 There is no linear trend in the female emigration proportion over time.
-   Ha: β < 0 There is a significant downward linear trend over time.
+   H1: β < 0 There is a significant downward linear trend over time.
 
 
 
@@ -45,7 +45,7 @@ R-squared: 0.80
 
 
 CONCLUSION:
-Reject H0. There is a significant negative trend in female emigration proportion over time.
+Reject H0. There is a significant negative linear trend in female emigration proportion over time.
 
 
 
