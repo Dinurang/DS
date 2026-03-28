@@ -1,0 +1,38 @@
+hypo 1 - Female share declining over time
+Hypothesis 1: Trend in Gender Composition of Emigration
+We investigated whether the proportion of female emigrants has
+experienced a statistically significant decline over the last three
+decades. A simple linear regression model was employed with Year
+as the independent variable and female_perc (percentage of female
+emigrants) as the dependent variable.
+• Null Hypothesis (𝐻0): There is no linear trend in the female
+emigration proportion (𝛽 = 0).
+• Alternative Hypothesis (𝐻1): There is a significant down-
+ward linear trend (𝛽 < 0).
+Results: The regression analysis revealed a strong negative re-
+lationship between time and the proportion of female emigrants.
+The model yielded a slope coefficient of 𝛽 = −1.271 (𝑆𝐸 = 0.116),
+indicating that the female share of total emigration decreased by
+approximately 1.27 percentage points per year. The 𝑡-statistic was
+−10.96 (𝑑 𝑓 = 30) with 𝑝-value < 0.001. The 95% confidence interval
+for the slope was [−1.507, −1.035] with coefficient of determination
+𝑅2 = 0.80.
+Interpretation: The extremely low 𝑝-value provides compelling
+evidence to reject the null hypothesis. The results confirm a statis-
+tically significant and steady long-term decline in the proportion
+of female emigrants, shifting from a female-dominated migra-
+tion pattern in the early 1990s to a male-dominated one in the 2020s.
+
+
+
+
+
+
+
+
+hypo 3 - Older emigrants secure longer contracts
+
+EDA  -  Gender Composition Transition
+
+EDA  - Poverty–Migration Link
+

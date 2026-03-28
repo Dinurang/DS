@@ -1,23 +1,69 @@
-HYPOTHESIS TEST: TREND IN FEMALE EMIGRATION (1994-2025)
+HYPOTHESIS TEST 1: TREND IN FEMALE EMIGRATION (1994-2025)
 Method: Simple Linear Regression
 Sample Size (n): 32
 
 1. HYPOTHESES:
-   H0: Beta_1 = 0 (No trend)
-   Ha: Beta_1 != 0 (Significant trend)
+   H0: β = 0 There is no linear trend in the female emigration proportion over time.
+   Ha: β < 0 There is a significant downward linear trend over time.
 
-2. DATA SUMMARY:
-   Estimated Slope (Beta_1): -1.271
-   Standard Error (SE): 0.116
 
-3. CALCULATION:
-   t-statistic = Beta_1 / SE
-   t = -1.271 / 0.116 = -10.957
-   Degrees of Freedom (df) = 32 - 2 = 30
 
-4. RESULTS:
-   p-value < 0.001
-   Significance Level (alpha) = 0.05
 
-5. CONCLUSION:
-   Reject H0. There is a significant negative trend in female emigration proportion.
+=== Regression Results ===
+                            OLS Regression Results
+==============================================================================
+Dep. Variable:            female_perc   R-squared:                       0.800
+Model:                            OLS   Adj. R-squared:                  0.793
+Method:                 Least Squares   F-statistic:                     120.1
+Date:                Sat, 28 Mar 2026   Prob (F-statistic):           5.19e-12
+Time:                        07:58:31   Log-Likelihood:                -102.01
+No. Observations:                  32   AIC:                             208.0
+Df Residuals:                      30   BIC:                             210.9
+Df Model:                           1
+Covariance Type:            nonrobust
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2605.6821    233.011     11.183      0.000    2129.810    3081.555
+year          -1.2708      0.116    -10.960      0.000      -1.508      -1.034
+==============================================================================
+Omnibus:                       11.300   Durbin-Watson:                   0.626
+Prob(Omnibus):                  0.004   Jarque-Bera (JB):               14.340
+Skew:                           0.838   Prob(JB):                     0.000769
+Kurtosis:                       5.819   Cond. No.                     4.37e+05
+==============================================================================
+
+
+=== Extracted Metrics for Hypothesis 1 ===
+Slope Coefficient (β): -1.271
+Standard Error (SE): 0.116
+t-statistic: -10.96
+p-value: 0.0000
+95% Confidence Interval: [-1.508, -1.034]
+R-squared: 0.80
+
+
+
+CONCLUSION:
+Reject H0. There is a significant negative trend in female emigration proportion over time.
+
+
+
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 4.37e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+This is incredibly common when using raw years (like 1994, 2015, 2020) as our independent variable in statsmodels.
+Because the numbers are in the thousands, the model's intercept calculation gets mathematically scaled up 
+(our intercept is 2605.68),which triggers statsmodels' internal multicollinearity warning.
+
+Since we are running a simple linear regression with only one independent variable, true multicollinearity
+is impossible. The slope (-1.271) and p-value are 100% accurate. (To make the warning disappear, 
+we could subtract the starting year from all years so they start at 0, 1, 2, etc.,
+but it is entirely unnecessary for this research conclusions).
+
+
+
+
