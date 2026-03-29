@@ -1,0 +1,13 @@
+Poverty-Migration Link and Lags:
+
+The longitudinal data indicates a complex, non-linear relationship between the World Bank poverty 
+headcount ratio ($3.65/day) and annual emigration volumes. During the initial period (1994–2000), 
+severe poverty levels (exceeding 60%) correlated with steadily growing, yet comparatively lower base 
+volumes of emigration, suggesting a strict "survival migration" motive constrained by limited resources. 
+As the poverty ratio declined significantly to 18.6% by 2017, emigration did not cease but rather surged 
+and fluctuated. This results in a classic "migration hump," where increased household income initially 
+facilitates the high costs of legal migration. Correlation analysis suggests a potential lag between 
+economic shifts and migration responses; for instance, the steady reduction in poverty throughout the 
+mid-2010s preceded the plateauing of emigration volumes in 2017-2018. This suggests that while poverty is 
+a primary push factor, institutional and society-driven factors retain migration volumes even as absolute 
+poverty reduces.

@@ -1,0 +1,11 @@
+Gender Composition Transition and Parity Stability:
+
+Analysis of the dataset from 1994 to 2025 shows a structural shift in the gender profile of Sri Lankan
+labor migration. In the mid-90s, the flow was highly feminized, with females accounting for over 70% 
+of total emigrants (e.g., 71.5% in 1994). This dominance was driven mainly by the skilled category, 
+where 89.5% of females belonged. However, a steady transition toward a new gender equilibrium is observed
+over the period. By the late 2010s, the male-to-female ratio inverted and stabilized near 65:35, reflecting 
+a significant increase in male participation in the labor export market. Interestingly, while the 
+overarching volume shifted toward males, the internal skill composition within genders remained remarkably 
+static. Female migration continues to be dominated by the skilled sector (≈87% in 2017), whereas the male 
+cohort maintains relatively more balanced split between skilled (≈61%) and low-skilled (≈39%) labor.
