@@ -1,13 +1,20 @@
-Poverty-Migration Link and Lags:
+POVERTY-MIGRATION LINK AND LAGS
 
-The longitudinal data indicates a complex, non-linear relationship between the World Bank poverty 
-headcount ratio ($3.65/day) and annual emigration volumes. During the initial period (1994–2000), 
-severe poverty levels (exceeding 60%) correlated with steadily growing, yet comparatively lower base 
-volumes of emigration, suggesting a strict "survival migration" motive constrained by limited resources. 
-As the poverty ratio declined significantly to 18.6% by 2017, emigration did not cease but rather surged 
-and fluctuated. This results in a classic "migration hump," where increased household income initially 
-facilitates the high costs of legal migration. Correlation analysis suggests a potential lag between 
-economic shifts and migration responses; for instance, the steady reduction in poverty throughout the 
-mid-2010s preceded the plateauing of emigration volumes in 2017-2018. This suggests that while poverty is 
-a primary push factor, institutional and society-driven factors retain migration volumes even as absolute 
-poverty reduces.
+The longitudinal data for Sri Lanka (1994–2025) confirms a complex, non-linear relationship 
+between the poverty headcount ratio(accrding to world bank metric of income under US$3.65 per day)
+and annual emigration volumes. During the initial period, severe low income levels compared to overseas countries 
+(reaching world bank poverty metric as high as 65.0%) correlated with growing but 
+lower base volumes of emigration. This aligns with the survival migration, where 
+extreme low incomes can actually act as a barrier to migration due to the high 
+upfront costs of legal recruitment and placement.
+As the income level compared to internation benchmark declined significantly 
+to 18.6% by 2017, emigration did not decrease as one might expect. Instead, 
+it surged and fluctuated at higher levels. This results in a classic migration hump
+as household incomes rise slightly above the low income benchmark line, families 
+gain the financial liquidity needed to facilitate the costs of international labor migration.
+The Pearson correlation coefficient (r) for the dataset is -0.359 but While this indicates 
+a weak-to-moderate negative relationship overall, the visual timeline suggests a distinct lag. 
+The sharp reduction in poverty throughout the mid-2010s preceded the peak and subsequent plateauing 
+of official emigration volumes.As the conclusion, While poverty remains a primary push factor, its reduction does not immediately 
+lower emigration volumes. Rather, institutional factors and social networks 
+sustain high migration rates even as income levelbenchmarks are surpassed.
