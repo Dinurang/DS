@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-research_df = pd.read_csv('./SriLanka_Migration.csv')
+research_df = pd.read_csv('./SriLanka_Migration_final.csv')
 
 # Extracting the required columns and annualizing the data
 
@@ -14,7 +14,7 @@ research_df['year'] = research_df['date'].dt.year
 
 
 # 3. Keep only the first occurrence of each year
-df_unique_years = research_df.drop_duplicates(subset='year', keep='first')
+df_unique_years = research_df.drop_duplicates(subset='year', keep='first').copy()
 
 # 4. Remove the 'date' column
 df_unique_years.drop(columns=['date'], inplace=True)
@@ -28,10 +28,9 @@ df1 = df_unique_years
 
 #============ dropping unnecessary columns =======================
 
-df2 = df1.drop(columns = ['remittances_annual_usd_mn', 'remittance_cost_pct', 'gdp_usd_bn',
-'inflation_rate','unemployment_rate','employment_ratio','wage_all_workers','interest_rate',
-'CCPI','PPP','dollar_rate_monthly','dest_gdp_growth_avg','dest_employment_rate_avg','brent_oil_monthly',
-'disaster_count','disaster_deaths','disaster_affected'])
+df2 = df1.drop(columns = ['remittances_annual_usd_mn', 'gdp_usd_bn_annual',
+'inflation_rate_annual','unemployment_rate_annual','employment_ratio_annual','wage_all_workers_annual','central_bank_interest_rate_annual',
+'CCPI_b2021','PPP_annual','dollar_rate_monthly','dest_gdp_growth_avg_annual','brent_oil_monthly'])
 
 #print(df2.head())
 #print(list(df2.columns))
