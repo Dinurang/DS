@@ -47,6 +47,6 @@ plt.ylabel('Female Emigrants (%)')
 plt.grid(True, alpha=0.3)
 plt.legend()
 
-plt.savefig('hypothesis1_female_emigration_trend2.png')
+plt.savefig('hypothesis1_female_emigration_trend.png')
 
 plt.show()

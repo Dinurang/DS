@@ -1,11 +1,12 @@
-Gender Composition Transition and Parity Stability:
+GENDER COMPOSITION TRANSITION AND PARITY STABILITY 
 
-Analysis of the dataset from 1994 to 2025 shows a structural shift in the gender profile of Sri Lankan
-labor migration. In the mid-90s, the flow was highly feminized, with females accounting for over 70% 
-of total emigrants (e.g., 71.5% in 1994). This dominance was driven mainly by the skilled category, 
-where 89.5% of females belonged. However, a steady transition toward a new gender equilibrium is observed
-over the period. By the late 2010s, the male-to-female ratio inverted and stabilized near 65:35, reflecting 
-a significant increase in male participation in the labor export market. Interestingly, while the 
-overarching volume shifted toward males, the internal skill composition within genders remained remarkably 
-static. Female migration continues to be dominated by the skilled sector (≈87% in 2017), whereas the male 
-cohort maintains relatively more balanced split between skilled (≈61%) and low-skilled (≈39%) labor.
+Analysis of the dataset from 1994 to 2025 shows a structural shift in the gender profile of Sri Lankan 
+labor migration. In the mid-90s, the flow was highly feminized, with females accounting for 72.8%
+of total emigrants in 1994. This dominance was primarily driven by the skilled category, 
+where 89.5% (1994) of females belonged.However, a steady transition toward a new gender equilibrium is observed 
+over the period. The male-to-female ratio inverted significantly after 2008. While the male percentage reached 
+a high of roughly 66% in the mid-2010s, it has stabilized near a 60:40 split in the most recent periods. 
+Interestingly, while the overarching volume shifted toward males, the internal skill composition within 
+genders remains distinct. Female migration continues to be dominated by the skilled sector 
+(approximately 86% in 2017), whereas the male cohort maintains a more divided split, though shifting 
+increasingly toward skilled labor (approximately 61% skilled vs 39% low-skilled in 2017).
