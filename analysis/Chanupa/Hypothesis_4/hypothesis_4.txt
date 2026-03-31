@@ -1,0 +1,23 @@
+HYPOTHESIS 4: POVERTY AS A PUSH FACTOR FOR EMIGRATION VOLUME
+
+Method: Pearson product-moment correlation (full sample) with directional follow-up
+Sample Size (n): 32
+
+1. HYPOTHESES:
+   H0: There is no significant linear correlation between poverty rate and emigration volume (rho = 0).
+   H1: There is a significant linear correlation between poverty rate and emigration volume (rho != 0).
+
+2. ASSUMPTION CHECK:
+   Visual pattern check (time series + scatter): approximately linear inverse tendency with a retained shock-year outlier (2020).
+   Complete-case observations used in test: no missing values in required columns after filtering.
+
+3. TEST RESULTS (Primary: Pearson two-tailed; Supplementary: one-tailed rho < 0):
+   Poverty rate vs emigration correlation (r): -0.359
+   Test statistic: t = -2.10, df = 30
+   Two-tailed p-value: 0.0438
+   One-tailed p-value (rho < 0): 0.0219
+   95% CI for r: [-0.629, -0.011]
+   Coefficient of determination (R^2): 0.129
+
+4. CONCLUSION:
+   Reject H0. The two-tailed test indicates a statistically significant correlation between poverty rate and emigration volume.

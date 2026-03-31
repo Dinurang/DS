@@ -1,0 +1,9 @@
+Skill Polarization and Human-Capital Migration Drift:
+
+Across 1994-2025, the updated analysis indicates a stronger aggregate deterioration in migrant skill composition (Figure 01(Skill Composition Trends with Structural Markers) and Figure 02(Polarization Indices and Skill Migration Quality Index)): total skilled participation declined by 0.69 percentage points per year (Theil-Sen slope: -0.6866, 95% CI: -0.8308 to -0.5111), while total lower-skill participation rose by 0.69 points per year (Theil-Sen slope: +0.6866, 95% CI: +0.5111 to +0.8308). The skilled-to-lower-skill quality ratio (SMQI) also deteriorated over time (Theil-Sen slope: -0.1325 per year), consistent with persistent low-skill dependence at the aggregate level:
+
+- Aggregate skill quality declined materially.
+- Gender trends continued to diverge.
+- Post-2020 re-skilling and polarization acceleration remained pronounced.
+
+Gender dynamics remained asymmetric (Figure 03(Gender Drift in Skilled and Low-Skilled Shares)): male skilled participation increased (Theil-Sen slope: +0.4929 points per year), while female skilled participation decreased (Theil-Sen slope: -0.2540 points per year). Structural break tests show stronger regime shifts at both 2018 and 2020 for total skilled share and aggregate polarization (F = 28.58, p < 0.001 at 2018; F = 13.34, p < 0.001 at 2020), followed by sharp post-2020 re-skilling (+5.20 points per year) and rapid polarization increase (+10.40 points per year) in subperiod estimates. Stationarity diagnostics continue to show that aggregate and male indicators are stationary, while female skilled share and female polarization remain non-stationary, pointing to deeper structural realignment in female migration composition.

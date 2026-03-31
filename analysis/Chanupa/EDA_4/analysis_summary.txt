@@ -1,0 +1,8 @@
+District Concentration and Rank Mobility: Auto Summary
+- Theil-Sen slope (HHI): 9.002 per year
+- Theil-Sen slope (Top1/Top5 dominance): 0.00279 per year
+- Latest Top5 share (2025): 63.70%
+- Latest HHI (2025): 2391.39
+- Structural hubs identified: 1
+- Transient spikes identified: 4
+- Interpretation: concentration is strengthening over time.

@@ -1,0 +1,23 @@
+HYPOTHESIS 2: GENDER DISPARITY IN SKILLED EMIGRANT COMPOSITION
+
+Method: Paired comparison (year-wise) with assumption-based test selection
+Sample Size (n): 32
+
+1. HYPOTHESES:
+   H0: There is no significant difference between female and male skilled emigration percentages.
+   H1: Female skilled emigration percentage is significantly higher than male skilled emigration percentage.
+
+2. ASSUMPTION CHECK:
+   Shapiro-Wilk on paired differences (female - male): W = 0.913, p = 0.013
+   IQR-based outliers in paired differences: 0
+
+3. TEST RESULTS (Primary: Wilcoxon signed-rank, one-sided female > male):
+   Female skilled mean (SD): 90.04% (5.38)
+   Male skilled mean (SD): 59.27% (4.97)
+   Mean paired difference (SD): 30.77 (8.83) percentage points
+   W = 528.000, p < 0.001
+   Effect size (Rank-biserial correlation): 1.000
+
+4. CONCLUSION:
+   Reject H0. Female skilled emigration share is statistically significantly higher than male share across years.
+

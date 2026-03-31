@@ -1,0 +1,9 @@
+District Concentration and Mobility:
+
+District-origin concentration in Sri Lankan migration strengthened gradually across the sample period rather than through one abrupt regime shift. HHI increased by 9.00 points per year (95% CI: 6.69-12.06), entropy declined (-0.00133 per year), and dominance rose (lead ratio: +0.00279; two-district ratio: +0.00258), while the combined leading-district share recovered to 63.70% in 2025 (HHI: 2391.39):
+
+- Concentration steadily rising.
+- Rank hierarchy persistent.
+- No significant structural breaks.
+
+Mobility remained limited (Rank1->Rank1 = 0.935; Rank5->Rank5 = 1.000): Kurunegala was the only structural hub, whereas Batticaloa, Galle, Anuradhapura, and Ampara were identified as transient spikes. Chow tests at 2018 and 2020 were non-significant for both HHI and lead-district dominance (all p > 0.05, minimum p = 0.0706).
