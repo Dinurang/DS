@@ -1,0 +1,59 @@
+================================================================================
+EDA FINDINGS
+================================================================================
+
+1)ALL CORRELATIONS ARE POSITIVE AND SIGNIFICANT
+──────────────────────────────────────────────────────────
+All 6 pairwise Pearson correlations among the four primary variables (Emigration, Remittances, Dollar Rate, Oil Price) are positive in sign, meaning that all variables tend to move in the same direction. These correlations are statistically significant at α = 0.05 for annual data and at α = 0.001 for monthly data. The results are also consistent across both annual and monthly data granularities. Overall, this provides strong evidence that the four variables are embedded within a common macroeconomic system, largely centered on Sri Lanka’s Gulf dependent labour export economy.
+
+2)THE GULF LABOUR MARKET IS THE PRIMARY SYSTEM DRIVER
+────────────────────────────────────────────────────────────────
+The Emigration ↔ Oil Price correlation (r = 0.707, p < 0.001) is the strongest contemporaneous relationship in the dataset, indicating that Gulf oil revenues act as the primary exogenous driver of the entire system. When oil prices rise, GCC countries expand their hiring capacity, leading to an increase in Sri Lankan emigration, which in turn raises remittances sent back home and creates pressure for Rupee appreciation, although this effect is partially offset by other factors. Conversely, when oil prices fall (such as in 2015 and 2020), GCC hiring contracts, causing a slowdown or decline in Sri Lankan emigration, with remittances either stagnating or decreasing.
+
+This “oil transmission channel” operates with a lag of approximately 3 months, as shown by the peak lag correlation (Lag 3 = 0.6917), which is slightly higher than the contemporaneous correlation at Lag 0 (r = 0.6827) for the oil–emigration relationship.
+
+3)RUPEE WEAKNESS IS A STRONG PUSH FACTOR AND PULL DOWN ON REMITTANCES
+─────────────────────────────────────────────────────────────────────────────────
+The Dollar Rate is identified as the most central hub variable in the full correlation matrix, as it shows strong relationships with several key variables. It correlates strongly with avg_contract_years (r = 0.951), which is the strongest non-trivial pair in the dataset. It also has a significant positive correlation with Remittances (r = 0.665), indicating that formal remittances tend to increase when the rupee weakens. The Dollar Rate is positively correlated with male_skilled_pct (r = 0.819), showing that skilled male migration intensifies under rupee weakness, while it has a negative correlation with fem_skilled_pct (r = −0.687), suggesting that the share of female migration declines when the rupee weakens severely, with male-dominated desperation migration becoming more dominant. Additionally, it has a moderate positive correlation with Emigration (r = 0.499), confirming its role as a push factor.
+
+The lag analysis between Dollar Rate and Remittances shows that the correlation increases with lag length, rising from r = 0.657 at Lag 0 to r = 0.685 at Lag 12. This indicates that prolonged rupee weakness sustains elevated remittances for up to 12 months, reflecting how workers gradually adjust their remittance behaviour in response to sustained currency depreciation rather than reacting immediately to short-term shocks.
+
+4)THE 2022 ECONOMIC CRISIS IS A REGIME CHANGE, NOT AN OUTLIER
+─────────────────────────────────────────────────────────────────────────
+The IQR analysis identifies the years 2022–2025 (4 consecutive years) as exchange-rate outliers. During this period, there is a simultaneous and sharp spike in emigration, increasing from 53,711 in 2020 to 310,953 in 2022, alongside a significant collapse of the Sri Lankan rupee, confirming a structural break in the system dynamics. The 2022–2025 crisis period does not invalidate the observed relationships from the general trend data; rather, it extends and intensifies them. Excluding these years from the dataset would lead to a misleading interpretation of the rupee–emigration relationship, as it would remove the most powerful real world evidence supporting the research hypothesis.
+
+5)COVID-19 (2020) AS AN INDEPENDENT STRUCTURAL SHOCK
+───────────────────────────────────────────────────────────────
+The 2020 emigration figure (53,711 — identified as an IQR outlier) represents a unique external shock caused by the COVID-19 pandemic, where emigration was severely restricted due to travel limitations rather than economic conditions. During 2020, emigration fell by 73.55%, marking the lowest value in the dataset, while remittances increased by 5.73%, as the existing diaspora sent more money home. At the same time, the Dollar Rate rose by 3.76%, indicating mild additional depreciation of the rupee, and the Oil Price fell by 35.04% due to the global demand collapse during the pandemic.
+
+This clear divergence between emigration and all other variables in 2020 highlights the impact of an exogenous non-economic shock. It also reinforces the idea that the resident overseas diaspora, independent of new migration flows, continues to be a stable and counter-cyclical source of remittances.
+
+6)EXTENDED VARIABLE INSIGHTS FROM FULL CORRELATION MATRIX
+────────────────────────────────────────────────────────────────────
+avg_contract_years ↔ dollar_rate (r = 0.951): The near-perfect correlation between contract duration and rupee weakness is one of the most striking findings in the extended correlation matrix. Over a span of 32 years, as the rupee weakened from LKR 49 to LKR 300, the average contract duration nearly doubled from 1.8 to 3.5 years. This represents the strongest quantitative evidence of how economic pressure reshapes the qualitative nature of migration, shifting it from short-term income supplementation toward long-term emigration commitment.
+
+male ↔ brent_oil (r = 0.796): Male emigration shows a stronger correlation with oil prices than total emigration (r = 0.707), confirming that Gulf construction and industrial sectors—both of which are male-dominated serve as the primary drivers of this relationship.
+
+female ↔ remittances (r = −0.345): Female emigration share is negatively correlated with remittances, which is somewhat counterintuitive. This reflects the historical pattern where female domestic workers, typically earning lower wages in Gulf countries, generated lower per-capita remittances. Over time, they were gradually replaced by male skilled and semi-skilled workers, who became the dominant emigrant group after 2009.
+
+avg_age ↔ remittances (r = 0.847): The strong positive correlation between average age and remittances suggests that older emigrant cohorts tend to generate higher remittances. This indicates that experienced, older workers are able to secure higher-paying jobs abroad and also exhibit more disciplined and intentional savings behaviour
+
+================================================================================
+SUMMARY TABLE 
+================================================================================
+
+Pair                              r       p-value    Sig   Direction
+──────────────────────────────────────────────────────────────────────
+Emigration    ↔ Remittances     +0.438   0.0121     *     Both rise/fall together
+Emigration    ↔ Dollar Rate     +0.499   0.0037     **    Rupee weakness → ↑ emigration
+Emigration    ↔ Oil Price       +0.707   0.000006   ***   ↑ Gulf demand → ↑ emigration
+Remittances   ↔ Dollar Rate     +0.665   0.000034   ***   Rupee weakness → ↑ remittances
+Remittances   ↔ Oil Price       +0.626   0.000125   ***   ↑ Gulf wealth → ↑ remittances
+Dollar Rate   ↔ Oil Price       +0.524   0.002102   **    ↑ oil prices → rupee pressure
+avt_contract  ↔ Dollar Rate     +0.951   <0.000001  ***   Rupee weakness → longer contracts
+male          ↔ brent_oil       +0.796   <0.000001  ***   ↑ oil → ↑ male Gulf demand
+avg_age       ↔ remittances     +0.847   <0.000001  ***   Older workers → higher remittances
+male_skl_pct  ↔ dollar_rate     +0.819   <0.000001  ***   Rupee weakness → ↑ skilled male %
+fem_skl_pct   ↔ dollar_rate     −0.687   <0.000001  ***   Rupee weakness → ↓ female skilled %
+
+Significance codes: *** p<0.001 | ** p<0.01 | * p<0.05
