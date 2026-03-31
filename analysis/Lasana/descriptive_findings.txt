@@ -1,0 +1,47 @@
+================================================================================
+DESCRIPTIVE FINDINGS
+================================================================================
+
+  1)STRUCTURAL BREAK — 2022 Economic Crisis:
+  The 2022–2023 period represents the most significant structural break in the
+  entire 32-year dataset. The rupee devaluation of +62.20% in 2022 resulted in
+  4 consecutive IQR outlier years (2022–2025) in the exchange rate series. This
+  event is not a statistical anomaly — it is an extreme but real macroeconomic
+  event and should be retained in all analyses.
+
+  2)COVID-19 — 2020 Emigration Outlier:
+  The 2020 emigration figure (53,711 workers) is a genuine IQR lower-fence
+  outlier. It represents a 73.55% year-over-year decline — the sharpest in the
+  dataset — and reflects the near-complete cessation of international labour
+  migration due to global COVID-19 travel restrictions. Again, this is a real
+  event and should not be treated as erroneous data.
+
+  3)REMITTANCES AS AN ECONOMIC LIFELINE:
+  Sri Lanka's personal remittances grew from USD 715 Mn (1994) to USD 8,076 Mn
+  (2025), representing an 11.3x increase over 32 years. The 2020 COVID year is
+  particularly notable: despite a 73.55% collapse in emigration, remittances
+  rose 5.73% in 2020 as the existing diaspora sent more money home to support
+  families affected by the pandemic. This demonstrates the counter-cyclical
+  nature of remittance flows relative to acute shocks.
+
+  4)GENDERED STRUCTURAL SHIFT:
+  A fundamental shift in the gender composition of emigration occurred between
+  the Civil War era (female-dominated, avg 64.6%) and the Post-War era (male-
+  dominated, avg 58.6%), driven by Gulf construction booms and policy changes
+  restricting female domestic worker migration. This shift has implications for
+  household income composition and vulnerability.
+
+  5)INCREASING CONTRACT DURATION — DESPERATION SIGNAL:
+  The average contract duration has increased monotonically from 1.8 years (1994)
+  to 3.5 years (2025) — a 94.4% increase. The near-perfect correlation with the
+  dollar rate (r = 0.951) suggests that rupee weakness is associated with Sri
+  Lankan workers committing to longer overseas contracts, consistent with economic
+  constraint driving longer-term migration commitments.
+
+  6)OIL PRICE CYCLES AND GULF LABOUR DEMAND:
+  Gulf Cooperation Council countries account for the majority of Sri Lankan
+  emigrant destinations. Brent crude oil prices serve as a reliable proxy for
+  Gulf economic activity and therefore Gulf hiring capacity. The cyclical nature
+  of oil prices (no distributional outliers; W = 0.936, p = 0.056, near-normal)
+  contrasts with the trend-dominated nature of emigration, remittances, and the
+  exchange rate — making it the most exogenous variable in the system.
