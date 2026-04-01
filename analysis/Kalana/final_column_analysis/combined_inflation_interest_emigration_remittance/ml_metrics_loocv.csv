@@ -1,0 +1,7 @@
+target,model,mae,rmse,r2,n_samples,validation
+inflation_rate_annual,LinearRegression,5.793008553485936,9.132189464807478,-0.11118769975124176,32,Leave-One-Out CV
+inflation_rate_annual,RandomForest,5.849388217123276,10.765460407027769,-0.5441973935926079,32,Leave-One-Out CV
+inflation_rate_annual,GradientBoosting,6.744138602842898,12.448370962203986,-1.0647270269429194,32,Leave-One-Out CV
+central_bank_interest_rate_annual,LinearRegression,1.7846129739881025,2.5071188016124117,0.1896861570389089,32,Leave-One-Out CV
+central_bank_interest_rate_annual,RandomForest,1.5969413671875035,2.567120168889262,0.15043653364571918,32,Leave-One-Out CV
+central_bank_interest_rate_annual,GradientBoosting,1.5217547460605008,2.5114236307904,0.18690108166103292,32,Leave-One-Out CV

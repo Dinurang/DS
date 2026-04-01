@@ -1,0 +1,17 @@
+{
+  "n_years": 32,
+  "best_models": {
+    "inflation_rate_annual": "LinearRegression",
+    "central_bank_interest_rate_annual": "LinearRegression"
+  },
+  "targets": {
+    "inflation_rate_annual": {
+      "best_rmse": 9.132189464807478,
+      "best_r2": -0.11118769975124176
+    },
+    "central_bank_interest_rate_annual": {
+      "best_rmse": 2.5071188016124117,
+      "best_r2": 0.1896861570389089
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "n_years": 32,
+  "year_start": 1994,
+  "year_end": 2025,
+  "hypothesis_1_wage_model": {
+    "f_statistic": 23.18125305275399,
+    "f_pvalue": 9.683194485854003e-07,
+    "r_squared": 0.6151932638837698,
+    "adj_r_squared": 0.5886548682895472,
+    "coef_const": -972.5976029904198,
+    "coef_slbfe_total_annual": 0.00695796000913803,
+    "coef_remittances_annual_usd_mn": 0.6819993623175595,
+    "p_slbfe_total_annual": 0.17749452886828454,
+    "p_remittances_annual_usd_mn": 8.645813510363294e-06,
+    "ci_slbfe_total_annual": [
+      -0.003338412183687963,
+      0.017254332201964023
+    ],
+    "ci_remittances_annual_usd_mn": [
+      0.4230902956048565,
+      0.9409084290302625
+    ],
+    "spearman_rho_emigration_wage": 0.5883431085043987,
+    "spearman_p_emigration_wage": 0.00039767787948480706,
+    "spearman_rho_remittance_wage": 0.9079912023460409,
+    "spearman_p_remittance_wage": 7.326874873083843e-13
+  },
+  "hypothesis_2_dest_gdp_growth_model": {
+    "f_statistic": 0.9614476028104254,
+    "f_pvalue": 0.39419291465132467,
+    "r_squared": 0.06218354370878332,
+    "adj_r_squared": -0.0024934532768177142,
+    "coef_const": 3.443507478491011,
+    "coef_slbfe_total_annual": 9.94494239816757e-06,
+    "coef_remittances_annual_usd_mn": -0.0003789002811318056,
+    "p_slbfe_total_annual": 0.3815531149691037,
+    "p_remittances_annual_usd_mn": 0.18863314280631735,
+    "ci_slbfe_total_annual": [
+      -1.2945792231977303e-05,
+      3.283567702831244e-05
+    ],
+    "ci_remittances_annual_usd_mn": [
+      -0.0009545028942141432,
+      0.00019670233195053205
+    ],
+    "spearman_rho_emigration_destgdp": 0.04912023460410556,
+    "spearman_p_emigration_destgdp": 0.7894907841421527,
+    "spearman_rho_remittance_destgdp": -0.1759530791788856,
+    "spearman_p_remittance_destgdp": 0.33540512406607403
+  }
+}

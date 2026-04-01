@@ -1,0 +1,17 @@
+{
+  "n_years": 32,
+  "best_models": {
+    "wage_all_workers_annual": "LinearRegression",
+    "dest_gdp_growth_avg_annual": "LinearRegression"
+  },
+  "targets": {
+    "wage_all_workers_annual": {
+      "best_rmse": 1776.9402732885815,
+      "best_r2": 0.5125891109730182
+    },
+    "dest_gdp_growth_avg_annual": {
+      "best_rmse": 4.1432251497025225,
+      "best_r2": -0.3066245773064682
+    }
+  }
+}

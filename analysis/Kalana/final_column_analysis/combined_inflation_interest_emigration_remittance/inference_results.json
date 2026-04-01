@@ -1,0 +1,47 @@
+{
+  "n_years": 32,
+  "year_start": 1994,
+  "year_end": 2025,
+  "hypothesis_1_inflation_model": {
+    "f_statistic": 2.5430456739409513,
+    "f_pvalue": 0.09602880363203127,
+    "r_squared": 0.14921309973541308,
+    "adj_r_squared": 0.09053814109647618,
+    "coef_const": 5.11857190346695,
+    "coef_slbfe_total_annual": 4.3405925308664904e-05,
+    "coef_remittances_annual_usd_mn": -0.0013293612090258832,
+    "p_slbfe_total_annual": 0.09915513721887814,
+    "p_remittances_annual_usd_mn": 0.046976139777736764,
+    "ci_slbfe_total_annual": [
+      -8.705059537307151e-06,
+      9.551691015463696e-05
+    ],
+    "ci_remittances_annual_usd_mn": [
+      -0.002639726277350725,
+      -1.8996140701041386e-05
+    ],
+    "spearman_rho_remittance_inflation": -0.5157624633431084,
+    "spearman_p_remittance_inflation": 0.002516593010061113
+  },
+  "hypothesis_2_interest_model": {
+    "f_statistic": 7.475854805422814,
+    "f_pvalue": 0.002407810285908504,
+    "r_squared": 0.34018493804291305,
+    "adj_r_squared": 0.29468045101138984,
+    "coef_const": 15.759041136339007,
+    "coef_slbfe_total_annual": 1.1107329826634758e-05,
+    "coef_remittances_annual_usd_mn": -0.0007007162868659786,
+    "p_slbfe_total_annual": 0.1344591253102944,
+    "p_remittances_annual_usd_mn": 0.0005796057127403199,
+    "ci_slbfe_total_annual": [
+      -3.646238780354808e-06,
+      2.5860898433624324e-05
+    ],
+    "ci_remittances_annual_usd_mn": [
+      -0.0010717044958371902,
+      -0.0003297280778947669
+    ],
+    "spearman_rho_emigration_interest": -0.31154359205918186,
+    "spearman_p_emigration_interest": 0.08261087182389333
+  }
+}

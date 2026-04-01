@@ -1,0 +1,3 @@
+hypothesis,x_variable,y_variable,alternative,n_years,shapiro_x_W,shapiro_x_p,shapiro_y_W,shapiro_y_p,spearman_rho,spearman_p_two_sided,spearman_p_one_sided
+H1,remittances_annual_usd_mn,unemployment_rate_annual,negative,32,0.8593599655182508,0.0006661695664787795,0.8503446618213515,0.00042206305852997896,-0.8968930474842274,3.747476417250752e-12,1.873738208625376e-12
+H2,slbfe_total_annual,employment_ratio_annual,positive,32,0.948012682313094,0.12654180708080165,0.943707958421241,0.09542931351314844,-0.11803519061583577,0.5199660618064565,0.7400169690967717
